@@ -44,17 +44,17 @@ No manual file downloading is required. The node will handle everything automati
 Simple usage for text-to-image & image-to-image.
 ![Simple usage for text-to-image & image-to-image](/Examples/omnigen_1.png)
 
-Generate 2 images and combine images.
-![Generate 2 images and combine images.](/Examples/omnigen_2a.png)
+Generate 2 image and combine images.
+![Generate 2 image and combine images.](/Examples/omnigen_2a.png)
 
-Following the pose of this image `image_1`, generate a new photo: Aa viking old man standing.
-![Following the pose of this image `image_1`, generate a new photo: Aa viking old man standing.](/Examples/imgs/PoseToImage_wf.jpg)
+Following the pose of this image `image_1`, generate a new photo: An viking old man standing.
+![Following the pose of this image `image_1`, generate a new photo: An viking old man standing.](/Examples/imgs/PoseToImage_wf.jpg)
 
 Generate a depth map from the input image and create a new image based on the depth map.
 ![Generate a depth map from the input image and create a new image based on the depth map.](/Examples/imgs/deaptnmapToImage_wf.jpg)
 
-Deblur this image, `image_1`
-![Deblur this image, `image_1`](/Examples/imgs/deblur_wf.jpg)
+Deblur this image. `image_1`
+![Deblur this image. `image_1`](/Examples/imgs/deblur_wf.jpg)
 
 ### Example prompts:
   
@@ -63,12 +63,12 @@ Deblur this image, `image_1`
 | 20yo woman looking at viewer |  |  |  | ![wm1](Examples/imgs/wm1.jpg) |
 | Transform `image_1` into an oil painting | ![wm1](Examples/imgs/wm1.jpg) |  |  | ![wm1op](Examples/imgs/wm1op.jpg) |
 | Transform `image_2` into an Anime | ![m1](Examples/imgs/m1.jpg) |  |  | ![m1a](Examples/imgs/m1a.jpg) |
-| The girl in `image_1` sitting on a rock on top of the mountain. | ![wm1](Examples/imgs/wm1.jpg) |  |  | ![wm1mt](Examples/imgs/wm1mt.jpg) |
+| The girl in `image_1` sitting on rock on top of the mountain. | ![wm1](Examples/imgs/wm1.jpg) |  |  | ![wm1mt](Examples/imgs/wm1mt.jpg) |
 | Combine `image_1` and `image_2` in anime style. | ![wm1](Examples/imgs/wm1.jpg) | ![m1](Examples/imgs/m1.jpg) |  | ![anime](Examples/imgs/anime.jpg) |
 | A woman from `image_1` and a man from `image_2` are sitting across from each other at a cozy coffee shop, each holding a cup of coffee and engaging in conversation. | ![wm1](Examples/imgs/wm1.jpg) | ![m1](Examples/imgs/m1.jpg) |  | ![cs](Examples/imgs/cs.jpg) |
 | Following the depth mapping of this image `image_1`, generate a new photo: an elderly couple sitting at a cozy coffee shop. The scene should feature the couple enjoying a peaceful moment together at a table. The elderly man, with a gray beard and glasses, and the woman, with short silver hair and a soft cardigan, are sipping coffee and smiling at each other. The atmosphere is warm, with soft, ambient lighting and a blurred background of other patrons, shelves of books, and cafe decorations. The depth and textures from `image_1` should be integrated to emphasize the intimate, serene setting. | ![cs](Examples/imgs/cs.jpg) |   |  | ![cs_oc](Examples/imgs/cs_oc.jpg) |
 | Detect the skeleton of a human in this image: `image_1` | ![m1](Examples/imgs/m1.jpg) |  |  | ![m1_skeleton](Examples/imgs/m1_skeleton.jpg) |
-| Following the pose of this image `image_1`, generate a new photo: A Viking old man standing | ![m1_skeleton](Examples/imgs/m1_skeleton.jpg) |  |  | ![PoseToImage](Examples/imgs/PoseToImage.jpg) |
+| Following the pose of this image `image_1`, generate a new photo: An Viking old man standing | ![m1_skeleton](Examples/imgs/m1_skeleton.jpg) |  |  | ![PoseToImage](Examples/imgs/PoseToImage.jpg) |
 | Detect the depth map of a human in this image: `image_1` | ![m1](Examples/imgs/m1.jpg) |  |  | ![m1_depthmap](Examples/imgs/m1_depthmap.jpg) |
 | Deblur this image: `image_1` | ![blur](Examples/imgs/blur.jpg) |  |  | ![deblur](Examples/imgs/deblur.jpg) |
 
@@ -104,5 +104,3 @@ The node will automatically download required files on first use:
 
 - Model Weights: [Shitao/OmniGen-v1](https://huggingface.co/Shitao/OmniGen-v1)
 </details>
-
----
