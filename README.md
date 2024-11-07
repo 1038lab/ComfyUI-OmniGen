@@ -1,7 +1,3 @@
-Here is the corrected version, with changes highlighted at the end.
-
----
-
 # ComfyUI-OmniGen
 
 A ComfyUI custom node implementation of [OmniGen](https://github.com/VectorSpaceLab/OmniGen), a powerful text-to-image generation and editing model.
