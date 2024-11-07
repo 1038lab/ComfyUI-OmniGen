@@ -68,7 +68,7 @@ Deblur this image. `image_1`
 | A woman from `image_1` and a man from `image_2` are sitting across from each other at a cozy coffee shop, each holding a cup of coffee and engaging in conversation. | ![wm1](Examples/imgs/wm1.jpg) | ![m1](Examples/imgs/m1.jpg) |  | ![cs](Examples/imgs/cs.jpg) |
 | Following the depth mapping of this image `image_1`, generate a new photo: an elderly couple sitting at a cozy coffee shop. The scene should feature the couple enjoying a peaceful moment together at a table. The elderly man, with a gray beard and glasses, and the woman, with short silver hair and a soft cardigan, are sipping coffee and smiling at each other. The atmosphere is warm, with soft, ambient lighting and a blurred background of other patrons, shelves of books, and cafe decorations. The depth and textures from `image_1` should be integrated to emphasize the intimate, serene setting. | ![cs](Examples/imgs/cs.jpg) |   |  | ![cs_oc](Examples/imgs/cs_oc.jpg) |
 | Detect the skeleton of a human in this image: `image_1` | ![m1](Examples/imgs/m1.jpg) |  |  | ![m1_skeleton](Examples/imgs/m1_skeleton.jpg) |
-| Following the pose of this image `image_1`, generate a new photo: An Viking old man standing | ![m1_skeleton](Examples/imgs/m1_skeleton.jpg) |  |  | ![PoseToImage](Examples/imgs/PoseToImage.jpg) |
+| Following the pose of this image `image_1`, generate a new photo: An viking old man standing | ![m1_skeleton](Examples/imgs/m1_skeleton.jpg) |  |  | ![PoseToImage](Examples/imgs/PoseToImage.jpg) |
 | Detect the depth map of a human in this image: `image_1` | ![m1](Examples/imgs/m1.jpg) |  |  | ![m1_depthmap](Examples/imgs/m1_depthmap.jpg) |
 | Deblur this image: `image_1` | ![blur](Examples/imgs/blur.jpg) |  |  | ![deblur](Examples/imgs/deblur.jpg) |
 
