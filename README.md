@@ -51,7 +51,7 @@ Following the pose of this image `image_1`, generate a new photo: Aa viking old 
 ![Following the pose of this image `image_1`, generate a new photo: Aa viking old man standing.](/Examples/imgs/PoseToImage_wf.jpg)
 
 Generate a depth map from the input image and create a new image based on the depth map.
-![Generate a depth map from the input image and create a new image based on the depth map.](/Examples/imgs/depthmapToImage_wf.jpg)
+![Generate a depth map from the input image and create a new image based on the depth map.](/Examples/imgs/deaptnmapToImage_wf.jpg)
 
 Deblur this image, `image_1`
 ![Deblur this image, `image_1`](/Examples/imgs/deblur_wf.jpg)
