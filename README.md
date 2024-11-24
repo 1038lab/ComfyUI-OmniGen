@@ -107,7 +107,7 @@ The node will automatically download required files on first use:
 - `use_input_image_size_as_output`: Match output size to input image (default: False) 
 </details>
 <details>
-<summary><h2>Creadit</h2></summary>
+<summary><h2>Credit</h2></summary>
 
 - Model Weights: [Shitao/OmniGen-v1](https://huggingface.co/Shitao/OmniGen-v1)
 </details>
