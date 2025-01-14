@@ -158,7 +158,7 @@ class ailab_OmniGen:
             if vram_size < 8:
                 print(f"Auto selecting FP8 (Available VRAM: {vram_size:.1f}GB)")
                 return "FP8"
-        print(f"Auto selecting FP16 (Available VRAM: {vram_size:.1f}GB)")
+            print(f"Auto selecting FP16 (Available VRAM: {vram_size:.1f}GB)")
         return "FP16"
 
     @classmethod
@@ -305,6 +305,10 @@ class ailab_OmniGen:
             img_guidance_scale, max_input_image_size, separate_cfg_infer,
             use_input_image_size_as_output, width, height, seed,
             image_1=None, image_2=None, image_3=None):
+
+        keep_in_vram = (memory_management == "Speed Priority")
+        offload_model = (memory_management == "Memory Priority")
+
         try:
             # Auto select precision if Auto is chosen
             if model_precision == "Auto":
@@ -328,10 +332,7 @@ class ailab_OmniGen:
                 self._current_precision = None
                 if torch.cuda.is_available():
                     torch.cuda.empty_cache()
-                    
-            keep_in_vram = (memory_management == "Speed Priority")
-            offload_model = (memory_management == "Memory Priority")
-            
+
             # Check model instance status
             print(f"Current model instance: {'Present' if self._model_instance else 'None'}")
             print(f"Current model precision: {self._current_precision}")
