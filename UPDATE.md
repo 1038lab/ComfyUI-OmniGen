@@ -1,5 +1,17 @@
 # OmniGen Updates
 
+## 2025-01-22 (v1.2.2)
+### Improved
+- Significant performance improvements in pipeline execution
+- Enhanced device management stability
+- Optimized memory handling during model operations
+- Better error recovery mechanisms
+
+### Fixed
+- Pipeline device movement reliability
+- Memory management in edge cases
+- Error handling during device transitions
+
 ## 2024-11-11
 ### Added
 - Preset Prompts Support
